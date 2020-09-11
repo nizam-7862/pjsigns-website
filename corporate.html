@@ -108,17 +108,27 @@ function compareImages(img) {
 		<!-- header -->
 		<div class="header">
 			<div class="container">
-				<div class="menu menu1">
+				<div class="menu">
 					<a href="#" class="navicon"></a>
 					<div class="toggle">
-						<ul class="toggle-menu">
+						<ul class="toggle-menu" id="menu">
 							<li><a href="index.html" class="active"> Home</a></li>
-							<li><a href="https://www.pjsigns.in#about"> About</a></li>
-							<li><a href="https://www.pjsigns.in#gallery"> Gallery</a></li>
-							<li><a href="https://www.pjsigns.in#clients" >Offers</a></li>
-							<li><a href="https://www.pjsigns.in#services" >Products</a></li>
-							<li><a href="https://www.pjsigns.in#team">Client say..</a></li>
-							<li><a href="https://www.pjsigns.in#contact"> Contact Us</a></li>
+							<li><a href="index.html/#about" class="scroll"> About</a></li>
+							<li><a href="index.html/#gallery" class="scroll"> Gallery</a></li>
+							<li><a href="index.html/#clients" class="scroll">Offers</a></li>
+							<ul class="drop">
+								<li><a href="index.html/#services" class="scroll">Products <i class="fa fa-angle-double-down"></i></a>
+									<ul class="dropdown">
+							      <li><a href="ledsigns.html">Signage</a></li>
+							      <li><a href="standee.html">Standee & Displays</a></li>
+							      <li><a href="corporate.html">Corparate signs</a></li>
+							      <li><a href="prints.html">Printing & Branding</a></li>
+							      <li><a href="design.html">Designing</a></li>
+							    </ul>
+								</li>
+							</ul>
+							<li><a href="index.html/#team" class="scroll">Client say..</a></li>
+							<li><a href="index.html/#contact" class="scroll"> Contact Us</a></li>
 						</ul>
 					</div>
 				</div>

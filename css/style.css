@@ -32,6 +32,31 @@ ul,label{
 body a:hover{
 	text-decoration:none;
 }
+
+.drop {
+	list-style: none;
+	margin: 0;
+	padding-left: 0;
+}
+.drop li ul {
+	visibility: hidden;
+  /* opacity: 0; */
+  min-width: 5rem;
+  transition: all 0.5s ease;
+	left: 0;
+  display: none;
+}
+
+.drop li:hover > ul,
+.drop li ul:hover {
+  visibility: visible;
+  opacity: 1;
+	transition: 4s;
+  display: block;
+	background-color: rgba(220, 220, 220, 0.5);
+}
+
+
 /*-- banner --*/
 .banner1{
 	min-height: 795px;
@@ -216,6 +241,7 @@ body a:hover{
     padding: 5px 0;
     margin: 0 auto;
 }
+
 .menu .toggle-menu li a.active {
     color: #ed3237;
 }
