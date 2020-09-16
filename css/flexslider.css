@@ -183,8 +183,9 @@ html[xmlns] .slides {display: block;}
 }
 @media screen and (max-width: 640px) {
 	.flex-control-nav {
-		left: 44%;
-		bottom: -24%;
+		/* left: 44%;
+		bottom: -24%; */
+    display: none;
 	}
 }
 @media screen and (max-width: 568px) {
@@ -208,8 +209,9 @@ html[xmlns] .slides {display: block;}
 		top: 38%;
 	}
 	.flex-control-nav {
-		bottom: -16%;
-		left: 41%;
+		/* bottom: -16%;
+		left: 41%; */
+    display: none;
 	}
 }
 @media screen and (max-width: 414px) {
@@ -222,8 +224,9 @@ html[xmlns] .slides {display: block;}
 		background-position: -14px center;
 	}
 	.flex-control-nav {
-		bottom: -18%;
-		left: 37%;
+		/* bottom: -18%;
+		left: 37%; */
+    display: none;
 	}
 	.flex-direction-nav .flex-next {
 		right: -17%;
@@ -239,7 +242,8 @@ html[xmlns] .slides {display: block;}
 }
 @media screen and (max-width: 384px){
 	 .flex-control-nav {
-       left: 34%;
+       /* left: 34%; */
+       display: none;
 	}
 	.flex-control-paging li a {
 		width: 11px;

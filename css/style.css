@@ -94,17 +94,50 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
-.banner7{
-	min-height: 795px;
-	background:url(../images/picban7.jpg)no-repeat center 0px;
-	background-size:cover;
-	position: relative;
-}
+
 .banner{
 	min-height: 795px;
 	background:url(../images/picban.jpg)no-repeat center 0px;
 	background-size:cover;
 	position: relative;
+}
+@media screen and (max-width: 768px){
+	.banner1{
+		min-height: 450px;
+		background:url(../images/picban1.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
+	.banner2{
+		min-height: 450px;
+		background:url(../images/picban2.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
+	.banner3{
+		min-height: 450px;
+		background:url(../images/picban3.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
+	.banner4{
+		min-height: 450px;
+		background:url(../images/picban4.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
+	.banner5{
+		min-height: 450px;
+		background:url(../images/picban5.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
+	.banner6{
+		min-height: 450px;
+		background:url(../images/picban6.jpg)no-repeat center 0px;
+		background-size:cover;
+		position: relative;
+	}
 }
 .header {
     /* padding-top: 2em; */
@@ -725,6 +758,7 @@ section {
 
 section img {
 	position: absolute;
+	width: 100%
 }
 
 .top {
@@ -760,7 +794,7 @@ section img {
 	}
 
 .flip-container, .front, .back {
-	width: 300px;
+	/* width: 300px; */
 	height: 200px;
 }
 
@@ -787,10 +821,17 @@ section img {
 	/* for firefox 31 */
 	transform: rotateY(0deg);
 }
-
+.front img{
+	width: 100%;
+	height: 100%;
+}
 /* back, initially hidden pane */
 .back {
 	transform: rotateY(180deg);
+}
+.back img{
+	width: 100%;
+	height: 100%;
 }
 
 .img-comp-container {
@@ -2400,6 +2441,13 @@ div#team {
 	.flexslider {
 		width: 84%;
 	}
+	.logo h3 img{
+		width: 100px;
+	}
+	.menu{
+		margin-top: 35px;
+		margin-right: 25px;
+	}
 	.menu .toggle-menu li {
 		margin: 5px auto;
 	}
@@ -2417,7 +2465,7 @@ div#team {
 		width: 38px;
 	}
 	.banner {
-		min-height: 570px;
+		min-height: 800px;
 	}
 	.w3_agileits-adopt-right img {
 		top: 79.6%;
@@ -2433,6 +2481,9 @@ div#team {
 	}
 	div#team {
 		padding-bottom: 10em;
+	}
+	.w3_agileits-adopt{
+		display: none;
 	}
 }
 @media screen and (max-width: 736px){
@@ -2541,7 +2592,7 @@ div#team {
 }
 @media screen and (max-width: 600px){
 	.banner-w3lstext h3 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 	.flexslider {
 		width: 79%;
@@ -2581,16 +2632,16 @@ div#team {
 }
 @media screen and (max-width: 568px){
 	.banner {
-		min-height: 463px;
+		min-height: 450px;
 	}
 	.flexslider {
 		width: 77%;
 	}
 	.banner-w3lstext h3 {
-		font-size: 3.7em;
+		font-size: 3em;
 	}
 	.banner-text {
-		margin-top: 5em;
+		margin-top: 8em;
 	}
 	.w3_agileits-adopt-right {
 		padding: 5.3em 0 3em 0em;
@@ -2651,7 +2702,7 @@ div#team {
 		width: 200px;
 	}
 	.banner-w3lstext h3 {
-		font-size: 3.2em;
+		font-size: 2.5em;
 	}
 	h3.agileits-title {
 		font-size: 2.1em;
@@ -2758,16 +2809,13 @@ div#team {
 }
 @media screen and (max-width: 414px){
 	.banner-w3lstext h3 {
-		font-size: 2.8em;
-	}
-	.banner {
-		min-height: 400px;
+		font-size: 2em;
 	}
 	.flexslider {
 		width: 79%;
 	}
 	.banner-text {
-		margin-top: 3em;
+		margin-top: 10em;
 	}
 	.logo h3 {
 		font-size: 2.8em;
@@ -2861,7 +2909,7 @@ div#team {
 		min-height: 350px;
 	}
 	.banner-w3lstext h3 {
-		font-size: 2.5em;
+		font-size: 2em;
 	}
 	.logo h3 {
 		font-size: 2.8em;
@@ -2936,7 +2984,7 @@ div#team {
 		font-size: 0.9em;
 	}
 	.w3ls-section {
-		padding: 2.4em 0 0;
+		padding: 2.4em 0 25px;
 	}
 	.w3_agileits-adopt-right h3 {
 		font-size: 1.1em;
