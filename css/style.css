@@ -103,39 +103,39 @@ body a:hover{
 }
 @media screen and (max-width: 768px){
 	.banner1{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban11.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner2{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban22.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner3{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban33.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner4{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban44.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner5{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban55.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner6{
-		min-height: 450px;
+		min-height: 600px;
 		background:url(../images/picban66.jpg)no-repeat center 0px;
-		background-size:contain;
+		background-size:cover;
 		position: relative;
 	}
 	.banner{
@@ -2822,7 +2822,7 @@ div#team {
 		margin-top: 5em;
 	}
 	.banner-text {
-		margin-top: 13em;
+		margin-top: 20em;
 	}
 	.logo h3 {
 		font-size: 2.8em;
