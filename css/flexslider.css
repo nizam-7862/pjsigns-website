@@ -136,17 +136,20 @@ html[xmlns] .slides {display: block;}
 .flex-control-nav {
     left: 45%;
     bottom: -42%;
+    display: none;
 }
 }
 @media screen and (max-width: 1024px) {
 	.flex-control-nav {
 		bottom: -37%;
+    display: none;
 	}
 }
 @media screen and (max-width: 991px) {
 	.flex-control-nav {
 		left: 43%;
 		bottom:-40%;
+    display: none;
 	}
 	.flex-direction-nav .flex-next {
     right: -14%;
