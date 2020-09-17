@@ -104,13 +104,13 @@ body a:hover{
 @media screen and (max-width: 768px){
 	.banner1{
 		min-height: 600px;
-		background:url(../images/picban1.jpg)no-repeat center 0px;
+		background:url(../images/picban11.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
 	.banner2{
 		min-height: 600px;
-		background:url(../images/picban2.jpg)no-repeat center 0px;
+		background:url(../images/picban22.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
@@ -122,13 +122,13 @@ body a:hover{
 	}
 	.banner4{
 		min-height: 600px;
-		background:url(../images/picban4.jpg)no-repeat center 0px;
+		background:url(../images/picban44.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
 	.banner5{
 		min-height: 600px;
-		background:url(../images/picban5.jpg)no-repeat center 0px;
+		background:url(../images/picban55.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
@@ -140,7 +140,7 @@ body a:hover{
 	}
 	.banner{
 		min-height: 600px;
-		background:url(../images/picban.jpg)no-repeat center 0px;
+		background:url(../images/picbann.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
