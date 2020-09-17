@@ -140,7 +140,7 @@ body a:hover{
 	}
 	.banner{
 		min-height: 600px;
-		background:url(../images/picban6.jpg)no-repeat center 0px;
+		background:url(../images/picban.jpg)no-repeat center 0px;
 		background-size:cover;
 		position: relative;
 	}
@@ -2819,6 +2819,9 @@ div#team {
 	}
 	.flexslider {
 		width: 79%;
+	}
+	.banner .banner-text{
+		margin-top: 2em;
 	}
 	.banner-text {
 		margin-top: 20em;
