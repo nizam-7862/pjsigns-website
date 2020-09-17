@@ -2470,9 +2470,7 @@ div#team {
 	.menu .navicon:before, .menu .navicon:after {
 		width: 38px;
 	}
-	.banner {
-		min-height: 800px;
-	}
+
 	.w3_agileits-adopt-right img {
 		top: 79.6%;
 	}
@@ -2821,7 +2819,7 @@ div#team {
 		width: 79%;
 	}
 	.banner .banner-text{
-		margin-top: 2em;
+		margin-top: 5em;
 	}
 	.banner-text {
 		margin-top: 20em;
