@@ -2552,9 +2552,9 @@ div#team {
 	}
 }
 @media screen and (max-width: 640px){
-	.banner {
+	/* .banner {
 		min-height: 515px;
-	}
+	} */
 	.banner-text {
 		margin-top: 7em;
 	}
@@ -2637,9 +2637,9 @@ div#team {
 	}
 }
 @media screen and (max-width: 568px){
-	.banner {
+	/* .banner {
 		min-height: 450px;
-	}
+	} */
 	.flexslider {
 		width: 77%;
 	}
