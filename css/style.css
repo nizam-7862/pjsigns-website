@@ -55,7 +55,9 @@ body a:hover{
   display: block;
 	background-color: rgba(220, 220, 220, 0.5);
 }
-
+.galleryimg{
+	float: right;
+}
 
 /*-- banner --*/
 .banner1{
@@ -145,6 +147,31 @@ body a:hover{
 		position: relative;
 	}
 }
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 20%; float: left; }
+div#slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
+
 .header {
     /* padding-top: 2em; */
 }
@@ -306,9 +333,12 @@ body a:hover{
 	font-weight: 700;
 }
 /*-- //menu-navigation --*/
+.divsort{
+	width: 80%;
+}
 .logo {
     float: left;
-	padding: 30px 5px 10px 5px;
+	padding: 30px 10px 10px 10px;
 	background: rgba(225, 225, 225, 0.9);
 }
 .logo h3 {
@@ -400,7 +430,7 @@ body a:hover{
 }
 /*-- //banner --*/
 .w3ls-section{
-	padding:4em 0 0 0;
+	padding:4em 0;
 }
 h3.agileits-title {
     font-size: 3em;
