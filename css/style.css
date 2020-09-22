@@ -59,13 +59,15 @@ body a:hover{
 	float: right;
 }
 .content_about h1{
-	padding: 50px 30px 15px 30px;
+	padding: 50px 20px 15px 20px;
 	color: #1a75bc;
+	text-align: center;
 }
 .content_about p{
 	color: #000;
   font-size: 1.2em;
   line-height: 1.8em;
+	text-align: center;
   margin: 0;
 	padding-left: 30px;
 	padding-right: 30px;
@@ -74,10 +76,13 @@ body a:hover{
 	color: black;
 	line-height: 2em;
 	padding: 0 15px 0 15px;
+	text-align: center;
 }
 .banner-1sttext{
-	padding-top: 60px;
+	padding-top: 30px;
+	/* font-size: 2em; */
 }
+
 /*-- banner --*/
 .banner1{
 	min-height: 795px;
@@ -428,7 +433,7 @@ div#slider figure {
     margin-top: 16em;
 }
 .banner-w3lstext h3{
-    font-size: 4em;
+    font-size: 3em;
     color: #fff;
     font-weight: 100;
 	text-align: center;
@@ -763,7 +768,7 @@ h3.agileits-title.head {
 	width: 50%;
 	height: 200px;
 	background: #ed3237;
-	padding:3em 2em;
+	padding: 1.5em 2em;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -1400,7 +1405,7 @@ section img {
 	float: left;
 	width: 50%;
 	background: #fed201;
-	padding:3em 2em;
+	padding:1.2em 2em;
 	transition:0.5s all;
 	height: 200px;
 	-webkit-transition:0.5s all;
@@ -1417,13 +1422,13 @@ section img {
     margin-top: 2em;
 }
 .w3lsbreeds-grid h4 ,.breeds1-left h4{
-    font-size: 1.6em;
+    font-size: 1.4em;
     color: #fff;
 }
 .breeds-right p,.w3lsbreeds-grid:hover div.breeds1-left p {
-    margin-top: 1em;
+    margin-top: 0.5em;
     color: #eee;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 .w3more,.w3more:hover{
     font-size: 1em;
@@ -1441,6 +1446,9 @@ section img {
 	-ms-transition:.5s all;
 	transition:.5s all;
 }
+.breeds1-left p{
+	padding-top: 0.5em
+}
 .w3more:hover i.fa{
 	padding-right: 15px;
 }
@@ -1452,6 +1460,7 @@ section img {
 }
 .w3lsbreeds-grid:hover.w3lsbreeds-grid p,.breeds1-left p{
     color: #000;
+
 }
 .w3lsbreeds-grid:hover div.breeds1-left{
 	background: #ed3237;
