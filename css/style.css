@@ -58,7 +58,26 @@ body a:hover{
 .galleryimg{
 	float: right;
 }
-
+.content_about h1{
+	padding: 50px 30px 15px 30px;
+	color: #1a75bc;
+}
+.content_about p{
+	color: #000;
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin: 0;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.works_text{
+	color: black;
+	line-height: 2em;
+	padding: 0 15px 0 15px;
+}
+.banner-1sttext{
+	padding-top: 60px;
+}
 /*-- banner --*/
 .banner1{
 	min-height: 795px;
@@ -1401,7 +1420,7 @@ section img {
     font-size: 1.6em;
     color: #fff;
 }
-.breeds p,.w3lsbreeds-grid:hover div.breeds1-left p {
+.breeds-right p,.w3lsbreeds-grid:hover div.breeds1-left p {
     margin-top: 1em;
     color: #eee;
     line-height: 2em;
