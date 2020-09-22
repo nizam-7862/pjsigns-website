@@ -767,7 +767,7 @@ h3.agileits-title.head {
 .breeds-right {
 	float: right;
 	width: 50%;
-	height: 200px;
+	height: 215px;
 	background: #ed3237;
 	padding: 1.5em 2em;
 	transition:0.5s all;
@@ -1408,7 +1408,7 @@ section img {
 	background: #fed201;
 	padding:1.2em 2em;
 	transition:0.5s all;
-	height: 200px;
+	height: 218px;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
