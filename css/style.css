@@ -377,6 +377,7 @@ div#slider figure {
     float: left;
 	padding: 30px 10px 10px 10px;
 	background: rgba(225, 225, 225, 0.9);
+	border-radius: 0 0 5px 5px;
 }
 .logo h3 {
     font-size: 3.2em;
