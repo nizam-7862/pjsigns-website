@@ -1743,7 +1743,7 @@ li.callbacks1_s3{
 	background-size:cover;
 }
 .w3_agileits-adopt-right {
-    padding: 5em 0 3em 35em;
+    padding: 5em 0 3em 27em;
     position: relative;
 }
 .bbssd{
@@ -1763,7 +1763,7 @@ li.callbacks1_s3{
 }
 .w3_agileits-adopt-right p {
     font-size: 15px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     margin: 1em 0;
 		margin-right: 100px;
     color: white;
