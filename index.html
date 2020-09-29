@@ -30,19 +30,20 @@
 <!-- js -->
 	<script src="js/jquery-2.2.3.min.js"></script>
 <!-- //js -->
-<link rel="icon" href="images/logopj.png" type="image/png" sizes="16x16">
+<link rel="icon" href="images/logopj1.png" type="image/png" sizes="16x16">
 <!-- web-fonts -->
-	<link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+	<!-- <link href="//fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 	<link href="//fonts.googleapis.com/css?family=Scada:400,400i,700,700i" rel="stylesheet">
-	<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet"> -->
 <!-- //web-fonts -->
 <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" > -->
 <!-- Optional theme -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" >
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="form.css" >
 <script src="form.js"></script>
+<!-- <script src="js/app.js"></script> -->
+<!-- <script src="js/particles.js"></script> -->
 </head>
 <body>
 	<!-- banner -->
@@ -860,7 +861,50 @@
 
 
 	<script type="text/javascript" src="js/bootstrap.js"></script>
-
+	<script language="JavaScript">
+  /**
+    * Disable right-click of mouse, F12 key, and save key combinations on page
+    * By Arthur Gareginyan (https://www.arthurgareginyan.com)
+    * For full source code, visit https://mycyberuniverse.com
+    */
+  window.onload = function() {
+    document.addEventListener("contextmenu", function(e){
+      e.preventDefault();
+    }, false);
+    document.addEventListener("keydown", function(e) {
+    //document.onkeydown = function(e) {
+      // "I" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 73) {
+        disabledEvent(e);
+      }
+      // "J" key
+      if (e.ctrlKey && e.shiftKey && e.keyCode == 74) {
+        disabledEvent(e);
+      }
+      // "S" key + macOS
+      if (e.keyCode == 83 && (navigator.platform.match("Mac") ? e.metaKey : e.ctrlKey)) {
+        disabledEvent(e);
+      }
+      // "U" key
+      if (e.ctrlKey && e.keyCode == 85) {
+        disabledEvent(e);
+      }
+      // "F12" key
+      if (event.keyCode == 123) {
+        disabledEvent(e);
+      }
+    }, false);
+    function disabledEvent(e){
+      if (e.stopPropagation){
+        e.stopPropagation();
+      } else if (window.event){
+        window.event.cancelBubble = true;
+      }
+      e.preventDefault();
+      return false;
+    }
+  };
+</script>
 
 </body>
 </html>
