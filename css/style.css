@@ -142,6 +142,9 @@ body a:hover{
 	background-size:cover;
 	position: relative;
 }
+.number{
+	padding-left: 61px;
+}
 @media screen and (max-width: 768px){
 	.banner1{
 		min-height: 600px;
